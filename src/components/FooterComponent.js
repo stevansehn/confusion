@@ -45,34 +45,46 @@ function Footer(props) {
               <a
                 className="btn btn-social-icon btn-google"
                 href="http://google.com/+"
+                target="_blank"
               >
                 <i className="fa fa-google-plus"></i>
               </a>
               <a
                 className="btn btn-social-icon btn-facebook"
                 href="http://www.facebook.com/profile.php?id="
+                target="_blank"
               >
                 <i className="fa fa-facebook"></i>
               </a>
               <a
                 className="btn btn-social-icon btn-linkedin"
                 href="http://www.linkedin.com/in/"
+                target="_blank"
               >
                 <i className="fa fa-linkedin"></i>
               </a>
               <a
                 className="btn btn-social-icon btn-twitter"
                 href="http://twitter.com/"
+                target="_blank"
               >
                 <i className="fa fa-twitter"></i>
               </a>
               <a
                 className="btn btn-social-icon btn-google"
                 href="http://youtube.com/"
+                target="_blank"
               >
                 <i className="fa fa-youtube"></i>
               </a>
-              <a className="btn btn-social-icon" href="mailto:">
+              <a
+                className="btn btn-social-icon btn-vk"
+                href="http://vk.com/"
+                target="_blank"
+              >
+                <i className="fa fab fa-vk pr-1"></i>
+              </a>
+              <a className="btn btn-social-icon" href="mailto:" >
                 <i className="fa fa-envelope-o"></i>
               </a>
             </div>
